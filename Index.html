@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front end</title>
+    <link rel="stylesheet" href="css/Style.css">
+  
+</head>
+<body>
+    <header>
+        <h1>¡Hola Mundo!</h1>
+    </header>
+    <main>
+        <section>
+            <article class="texto">
+            <p>Soy Jimena Pedraza, ¡Bienvenidos a mi primer sitio web!</p>
+            </article>
+        </section>
+        <section class="imagenes">
+            <article class="imagen">
+            <img src="img/desarrollo.jpg" alt="001">
+            <h2>Estudiante de desarrollo web en <br> la universidad de la Matanza</h2>
+            </article>
+
+            <article class="imagen">
+            <img src="img/DiseñoGrafico.jpg" alt="002">
+            <h2>Soy Diseñadora <br> gráfica y web</h2>
+            </article>  
+            
+            <article class="imagen">
+                <img src="img/Front end.jpg" alt="003">
+                <h2>Curso programacion <br> Front End</h2>
+                </article>  
+            
+        </section>
+    </main>
+    <aside class="contacto">
+        <article class="consultas">
+            <div class="datos">
+                <h1>CONTACTANOS</h1>
+            <form action="#" method="post" >
+            <label for="nombreyapellido">Nombre y apellido</label>
+            <br>
+            <input id="nombreyapellido" type="text" name="nombreyapellido" placeholder="Ingrese su nombre y apellido" ></form>
+            <form action="#" method="post" >Email</form>
+            <input id="mail" type="email" name="emails" placeholder="Ingrese su email" required>
+            <br>
+            <form action="telefono" name="telefono" method="get">Telefono</form>
+            <input id="tel" type="tel" name="tel" placeholder="Ingrese su Telefono" pattern="[0-9]{8,}" required> 
+            <br>
+            <form action="consulta" name="consulta" method="get">Consulta</form>
+            <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Deja tu mensaje..."></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+        </div>
+        </article>
+            <br>
+            <br>
+            <br>
+        <article class="ubicacion">
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.911492091223!2d-58.04804138518507!3d-34.88356877986515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2dd9756f98673%3A0xb397709abfd0ae5!2sPaseo%20Nirvana!5e0!3m2!1ses-419!2sar!4v1659371128175!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <br>
+                <br>
+            </div>
+        </article>
+    </aside>
+    <footer>
+       <h3>Introduccion a programacion Front End - 2022</h3>
+    </footer>
+</body>
+</html>

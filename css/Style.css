@@ -1,0 +1,124 @@
+body{
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+header{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 2px;
+    font-size: 25px;
+    background-image:url(../img/5591276.jpg);
+    background-size: 1050px;
+}
+main{
+    background-image:url(../img/3860709.jpg);
+    background-repeat:no-repeat;
+    background-size: 1300px 1350px;
+}
+
+.texto{
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(255, 182, 73);
+    padding: 1px;
+}
+
+img{
+   width: 315px;
+}
+
+ .imagenes{
+    padding-top: 5px;
+    text-align: center;
+    font-size: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+  
+     
+ }
+ .imagen{
+    padding: 10px;
+    flex-direction: row;
+    border: 1px #000 solid;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-bottom: 13px;
+ 
+ }
+ 
+ aside{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(250, 156, 121);
+}
+
+.consultas{
+    display: contents;
+    float: left;
+    text-align: left;
+    margin: 5px;
+}
+.consultas h1{
+    text-align: left;
+    
+}
+.datos{
+    border: 1px solid #CBCBCB;
+    background-color: #ffcccc;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.consultas form{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;   
+}
+.consultas input[type=text]{
+    margin: 2px;
+    padding: 3px;
+}
+.consultas input[type=email]{
+    margin: 5px;
+    padding: 3px;
+}
+
+.consultas input[type=tel]{
+    margin: 5px;
+
+}
+textarea{
+    margin: 5px;
+}
+
+.consultas input[type=submit]{
+    margin: 10px;
+    background-color: #50A0BF;
+    color: #fff;
+    padding: 15px;
+    border: #50A0BF;
+}
+
+.ubicacion{
+    display: flex;
+    justify-content: space-around;
+    float: left;
+}
+.mapa{
+    display: flex;
+    justify-content:flex-start;
+    margin-top: 25px; 
+}
+
+
+footer{
+    text-align: center;
+    color: rgb(3, 110, 57);
+    background-color: rgb(130, 255, 197);
+    padding: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    
+}
